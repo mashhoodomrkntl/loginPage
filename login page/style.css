@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "tahoma";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    /* transform: translate(-50px);  */
+ background-image: url('lionel-messi-football-player-argentinian-fc-barcelona-3840x2400-3265.jpg');
+ background-size: cover;
+ background-position: center;
+}
+.wrapper{
+    /* background: rgb(163, 159, 159); */
+    width: 420px;
+    color: #fff;
+    padding: 50px 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px white;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+   
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    background: transparent;
+    
+    border: 2px solid rgba(255, 255, 255,.2);
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: -8px 0 24px;
+}
+.remember-forgot label input{
+   accent-color: red;
+    margin-right:6px;
+}
+
+.remember-forgot a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.remember-forgot a:hover{
+    
+    text-decoration: underline;
+
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;    
+}
+.regisete-link{
+    text-align: center;
+    margin-top: 27px;
+    font-size: 16px;
+}
+.regisete-link a{
+    color: rgb(29, 69, 202);
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.regisete-link a:hover{
+    text-decoration: underline;
+}
